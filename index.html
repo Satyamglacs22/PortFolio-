@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>portfolio/satyam</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="theme-toggle">
+      <button id="theme-toggle-btn">
+        <i class="fas fa-moon"></i>
+      </button>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-img">
+        <img src="pp3.jpg" alt="Satyam Kumar" />
+      </div>
+      <div class="hero-text">
+        <h1>Namaste, Welcome to the Portfolio of <span>Satyam Kumar.</span></h1>
+        <p>B.Tech Student | Web Developer | Coder</p>
+        <div class="hero-buttons">
+          <a href="resume.html" target="_blank" class="btn">View Resume</a>
+          <div class="social-icons">
+            <a href="https://github.com/Satyamglacs22" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/satyam-kumar-250263367?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/share/19xzuRbiZP/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/i_m_sks12/" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          I'm Satyam Kumar, a Computer Science Engineering student at GLA University. Over the past few years, I have gained proficiency in several programming languages and technologies, including HTML, CSS, JavaScript, Java, C, and Python.
+        </p>
+        <p>
+          I have worked on several projects that allowed me to apply my skills practically, such as developing a responsive Environmental Monitoring Dashboard using HTML, CSS, and JavaScript. These projects have helped me strengthen my problem-solving abilities and my understanding of software development.
+        </p>
+        <p>
+          In addition, I have solved numerous coding problems on different platforms such as LeetCode, Codechef, and GFG, which has enhanced my algorithmic thinking and coding efficiency.
+        </p>
+        <p>
+          On the soft skills side, I am a quick learner, adaptable to new challenges, and work well both independently and in a team environment. I am also keen on improving my communication and collaboration skills through practical experiences.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-container">
+          <div class="skills-category">
+            <h3>Programming Languages</h3>
+            <ul class="skills-list">
+              <!-- <li>C</li>
+              <li>Python</li> -->
+              <li>Java</li>
+              <li>OOPS</li>
+              <!-- <li>Python</li> -->
+            </ul>
+          </div>
+          <div class="skills-category">
+            <h3>Web Development</h3>
+            <ul class="skills-list">
+              <li>HTML</li>
+              <li>CSS</li>
+               <li>JavaScript</li>
+              <li>Node.js</li>
+               <li>Express Js</li>
+            </ul>
+          </div>
+          <div class="skills-category">
+            <h3>Database</h3>
+            <ul class="skills-list">
+              <li>MongoDB</li>
+              <li>My Sql</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          
+          <div class="project-card">
+            <div class="project-icon">
+              <i class="fas fa-user"></i>
+            </div>
+            <h3>Personal Portfolio</h3>
+            <p>My own online portfolio to showcase my skills and projects. Built using HTML, CSS, and JavaScript.</p>
+            <div class="project-links">
+              <a href="video.html?file=portfolioworkingvideo.mkv" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i>Project Working Video</a>
+              <a href="https://github.com/Satyamglacs22/PortFolio-.git" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h3>Environmental Monitoring Dashboard</h3>
+            <p>A real-time dashboard built with HTML, CSS, and JavaScript to monitor air and water quality metrics.</p>
+            <div class="project-links">
+              <a href="video.html?file=WeatherDashBoardWorking.mp4" class="project-link"><i class="fas fa-external-link-alt"></i> Project Working Video</a>
+              <a href="https://github.com/Satyamglacs22/Environmental-Monitoring-DashBoard.git" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+           <div class="project-card">
+            <div class="project-icon">
+              <i class="fas fa-camera"></i>
+            </div>
+            <h3>Web-Cam Capture</h3>
+            <p> A simple frontend web application that allows users to capture a photo using their webcam, download the image, retake it if needed, or delete it. It is built using HTML, CSS, and JavaScript .</p>
+            <div class="project-links">
+              <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Project Working Video</a>
+              <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-icon">
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+            <h3>E-commerce App</h3>
+            <p>Developed using MERN stack (MongoDB, Express.js, React, Node.js) to showcase online shopping functionality.</p>
+            <div class="project-links">
+              <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Project Working Video</a>
+              <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+
+         
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <div class="contact-container">
+          <div class="contact-form">
+            <h3>Send me a message</h3>
+            <form id="contact-form">
+              <div class="form-group">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+              </div>
+              <div class="form-group">
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" class="btn">Send Message</button>
+            </form>
+          </div>
+          <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p><i class="fas fa-envelope"></i> <a href="mailto:sk72574401@gmail.com">sk72574401@gmail.com</a></p>
+            <p><i class="fas fa-phone"></i> +91 9123195281 / +91 9319132489</p>
+            <p><i class="fas fa-map-marker-alt"></i> Begusarai, Bihar, India</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h3>Satyam Kumar</h3>
+          <p>B.Tech Student | Web Developer | Coder</p>
+        </div>
+        <div class="footer-links">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <div class="social-icons">
+            <a href="https://github.com/Satyamglacs22" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/satyam-kumar-250263367?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/share/19xzuRbiZP/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/i_m_sks12/" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Satyam Kumar. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
